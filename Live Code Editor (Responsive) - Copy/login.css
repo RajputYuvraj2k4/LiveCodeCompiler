@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    --dark-red: #990000;
+    --red: #FF0000;
+    --black: #000000;
+    --light-black: #333333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, var(--red) 0%, var(--black) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    border-radius: 20px;
+    margin-top: 150px !important;
+    width: 24% !important;
+    background-color: var(--black) !important;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, var(--red) 0%, var(--black) 100%);
+    color: #fff;
+}
+
+.form-control {
+    color: #fff;
+    border-bottom-color: rgba(255, 255, 255, 0.42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}
+#emailHelp:hover{
+    color:#fff;
+    text-shadow: 0 0 10px #fff,         
+                 0 0 20px #fff;
+}
+h4 {
+    font-size: 2rem !important;
+    font-weight: 700;
+    color: #fff;
+}
+
+.form-label {
+    font-weight: 800 !important;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100% !important;
+    }
+}
